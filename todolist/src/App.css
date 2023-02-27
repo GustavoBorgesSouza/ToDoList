@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.container-form {
+  margin: 2rem 0;
+  min-width: 20vw;
+  max-width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-form__btn {
+  background-color: var(--main-color);
+  color: whitesmoke;
+  border: 1px solid var(--text-color);
+
+}
+
+.container-lista {
+  min-width: 20vw;
+  max-width: 40vw;
+  height: auto;
+  padding: .5rem;
+  border: 1px solid var(--text-color);
+  background-color: whitesmoke;
+}
+
+.container-lista-tarefa {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-lista-tarefa__btn{
+  color: var(--delete-color);
+  background-color: transparent;
+  border: none;
+}
+
+.container-lista-tarefa__task:checked{
+  color: var(--main-color);
+  
+}
